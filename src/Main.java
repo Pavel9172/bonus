@@ -3,9 +3,9 @@ public class Main {
         int balance = 100; // начальный баланс
         int deposit = 11000; // пополнение счета
         int bonus = deposit / 100;
-        int tog = balance + deposit + bonus;
+        int result = balance + deposit + bonus;
 
-        System.out.println(" Итоговая сумма вместе с бонусом " + tog);
+        System.out.println(" Итоговая сумма вместе с бонусом " + result);
         System.out.println(" Бонус " + bonus);
     }
 }
