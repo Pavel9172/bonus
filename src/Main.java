@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int balance = 100; // начальный баланс
-        int deposit = 11000; // пополнение счета
+        int deposit = 110000; // пополнение счета
         int bonus = deposit / 100;
         int result = balance + deposit + bonus;
 
